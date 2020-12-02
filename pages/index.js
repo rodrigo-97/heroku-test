@@ -11,14 +11,13 @@ export default function Home() {
 
       <main className={styles.main}>
         Rodrigo
-        <button onClick="alert()"> alert </button>
+        <button  onClick={a} > alert </button>
       </main>
     </div>
   )
 }
 
 
-function alert()
-{
-  alert ("rodrigo")
+function a (){
+  alert("rodrigo")
 }
