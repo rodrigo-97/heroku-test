@@ -11,7 +11,14 @@ export default function Home() {
 
       <main className={styles.main}>
         Rodrigo
+        <button onClick="alert()"> alert </button>
       </main>
     </div>
   )
+}
+
+
+alert()
+{
+  alert ("rodrigo")
 }
